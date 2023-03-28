@@ -528,10 +528,11 @@ class CagriSilOnayButon extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.green,
         elevation: 10,
         fixedSize: Size(
           (_width / 3),
-          (_height / 10),
+          (_height / 15),
         ),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),
@@ -553,10 +554,11 @@ class CagriSilRedButon extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.red,
         elevation: 10,
         fixedSize: Size(
           (_width / 3),
-          (_height / 10),
+          (_height / 15),
         ),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),
