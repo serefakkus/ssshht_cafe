@@ -4,10 +4,10 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import 'first_page.dart';
 
-String urlAdmin = 'ws://main.ssshht.com/wscaf';
-String urlPeronel = 'ws://main.ssshht.com/wsper';
-String urlPersonelCagri = 'ws://cagri.ssshht.com/wsper';
-String imageurl = 'http://media.ssshht.com/';
+String urlAdmin = 'ws://main.ssshht.store/wscaf';
+String urlPeronel = 'ws://main.ssshht.store/wsper';
+String urlPersonelCagri = 'ws://cagri.ssshht.store/wsper';
+String imageurl = 'http://media.ssshht.store/';
 
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
